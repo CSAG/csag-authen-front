@@ -1,0 +1,25 @@
+{
+  "name": "csag-authen-front",
+  "version": "1.0.0",
+  "description": "OAuth2 for CSAG",
+  "main": "index.js",
+  "scripts": {
+    "test": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSAG/csag-authen-front.git"
+  },
+  "keywords": [
+    "CSAG"
+  ],
+  "author": "CSAG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSAG/csag-authen-front/issues"
+  },
+  "homepage": "https://github.com/CSAG/csag-authen-front#readme",
+  "dependencies": {
+    "next": "^3.0.1-beta.8"
+  }
+}
