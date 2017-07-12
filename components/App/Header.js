@@ -12,6 +12,7 @@ export class Header extends Component {
             <header>
                 <Head>
                     <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
+                    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:600' />
                     <title>{ this.props.title } - CSAG Authentication</title>
                 </Head>
             </header>
