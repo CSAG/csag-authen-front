@@ -6,6 +6,7 @@ class App extends Component {
         return (
             <Template title="Welcome">
                 <p>my page with global styles!55</p>
+                <img src='/assets/images/bg/001.jpg' />
             </Template>
         )
     }

@@ -10,7 +10,7 @@ export class Main extends Component {
         return (
             <div>
                  <Header title={this.props.title} />
-                {this.props.children}
+                    {this.props.children}
                  <Footer />
              </div>
         )

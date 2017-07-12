@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Head from 'next/head'
-import stylesheet from 'styles/main.scss'
+import stylesheet from '../../styles/main.scss'
 
 export class Header extends Component {
     constructor(props) {

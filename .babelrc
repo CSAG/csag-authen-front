@@ -2,9 +2,9 @@
   "plugins": [
     [
       "module-resolver", {
-      "root": ["./src"],
+      "root": ["./"],
       "alias": {
-        "styles": "./src/styles"
+        "styles": "./styles"
       },
       "cwd": "babelrc"
     }],
