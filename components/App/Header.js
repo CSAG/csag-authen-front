@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import Head from 'next/head'
 import stylesheet from '../../styles/main.scss'
 
@@ -11,9 +11,13 @@ export class Header extends Component {
         return (
             <header>
                 <Head>
-                    <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
-                    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:600' />
-                    <title>{ this.props.title } - CSAG Authentication</title>
+                    <style dangerouslySetInnerHTML={{__html: stylesheet}}/>
+                    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:600'/>
+                    <link rel="stylesheet"
+                          href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"/>
+                    <link rel="stylesheet"
+                          href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css"/>
+                    <title>{this.props.title} - CSAG Authentication</title>
                 </Head>
             </header>
         )

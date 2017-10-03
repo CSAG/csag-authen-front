@@ -27,6 +27,7 @@
     "next": "^2.4.7",
     "now": "^7.2.4",
     "react": "^15.6.1",
+    "react-bootstrap": "^0.31.3",
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
