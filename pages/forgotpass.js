@@ -9,7 +9,7 @@ export default class App extends Component {
                     <div className="col-sm-4 col-sm-offset-4">
                         <div className="panel panel-base">
                             <div className="panel-heading">
-                                Forgot Password
+                                <h4>Forgot Password</h4>
                             </div>
                             <div className="panel-body">
                                 <input type="text" className="form-control mb-15" placeholder="Username or Email"/>

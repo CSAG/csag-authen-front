@@ -9,7 +9,7 @@ export default class App extends Component {
                     <div className="col-sm-6 col-sm-offset-3">
                         <div className="panel panel-base">
                             <div className="panel-heading">
-                                Register
+                                <h4>Register</h4>
                             </div>
                             <div className="panel-body">
                                 <fieldset>
