@@ -55,10 +55,15 @@ var Main = exports.Main = function (_Component) {
                     fileName: _jsxFileName,
                     lineNumber: 12
                 }
+            }), _react2.default.createElement(_components.Navbar, {
+                __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 13
+                }
             }), this.props.children, _react2.default.createElement(_components.Footer, {
                 __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 14
+                    lineNumber: 15
                 }
             }));
         }

@@ -62,30 +62,34 @@ var Header = exports.Header = function (_Component) {
                     fileName: _jsxFileName,
                     lineNumber: 13
                 }
-            }, _react2.default.createElement('style', { dangerouslySetInnerHTML: { __html: _main2.default }, __source: {
+            }, _react2.default.createElement('link', { rel: 'stylesheet prefetch', href: 'https://fonts.googleapis.com/css?family=Open+Sans:600', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 14
-                }
-            }), _react2.default.createElement('link', { rel: 'stylesheet prefetch', href: 'https://fonts.googleapis.com/css?family=Open+Sans:600', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 15
                 }
             }), _react2.default.createElement('link', { rel: 'stylesheet',
                 href: 'https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 16
+                    lineNumber: 15
                 }
             }), _react2.default.createElement('link', { rel: 'stylesheet',
                 href: 'https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 18
+                    lineNumber: 17
                 }
             }), _react2.default.createElement('title', {
                 __source: {
                     fileName: _jsxFileName,
+                    lineNumber: 19
+                }
+            }, this.props.title, ' - CSAG Authentication'), _react2.default.createElement('link', { href: 'public/favicon.png', rel: 'icon', type: 'image/png', __source: {
+                    fileName: _jsxFileName,
                     lineNumber: 20
                 }
-            }, this.props.title, ' - CSAG Authentication')));
+            }), _react2.default.createElement('style', { dangerouslySetInnerHTML: { __html: _main2.default }, __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 21
+                }
+            })));
         }
     }]);
 

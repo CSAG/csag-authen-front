@@ -1,37 +1,37 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.Footer = undefined;
 
-var _getPrototypeOf = require('next\\node_modules\\babel-runtime/core-js/object/get-prototype-of');
+var _getPrototypeOf = require("next\\node_modules\\babel-runtime/core-js/object/get-prototype-of");
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = require('next\\node_modules\\babel-runtime/helpers/classCallCheck');
+var _classCallCheck2 = require("next\\node_modules\\babel-runtime/helpers/classCallCheck");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = require('next\\node_modules\\babel-runtime/helpers/createClass');
+var _createClass2 = require("next\\node_modules\\babel-runtime/helpers/createClass");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = require('next\\node_modules\\babel-runtime/helpers/possibleConstructorReturn');
+var _possibleConstructorReturn2 = require("next\\node_modules\\babel-runtime/helpers/possibleConstructorReturn");
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = require('next\\node_modules\\babel-runtime/helpers/inherits');
+var _inherits2 = require("next\\node_modules\\babel-runtime/helpers/inherits");
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _react = require('react');
+var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = 'D:\\dev\\www\\csag-authen-front\\components\\App\\Footer.js';
+var _jsxFileName = "D:\\dev\\www\\csag-authen-front\\components\\App\\Footer.js";
 var Footer = exports.Footer = function (_Component) {
     (0, _inherits3.default)(Footer, _Component);
 
@@ -42,14 +42,13 @@ var Footer = exports.Footer = function (_Component) {
     }
 
     (0, _createClass3.default)(Footer, [{
-        key: 'render',
+        key: "render",
         value: function render() {
-            return _react2.default.createElement('div', {
-                __source: {
+            return _react2.default.createElement("footer", { className: "footer", __source: {
                     fileName: _jsxFileName,
                     lineNumber: 6
                 }
-            }, 'This is a Footer.');
+            }, "Copyright \xA9 2017 Computer System Administrator Group (CSAG) - All rights reserved");
         }
     }]);
 

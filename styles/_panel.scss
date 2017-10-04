@@ -1,0 +1,16 @@
+.panel{
+  border-radius: 0;
+  >.panel-heading{
+    border-radius: 0;
+  }
+}
+
+
+
+.panel-base{
+  border-color: lighten($base-color, 20%);
+  >.panel-heading {
+    background: $base-color;
+    color: #ffffff;
+  }
+}

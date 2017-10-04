@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Footer, Header } from '../components'
+import {Footer, Header, Navbar} from '../components'
 
 export class Main extends Component {
     constructor(props) {
@@ -9,10 +9,11 @@ export class Main extends Component {
     render() {
         return (
             <div>
-                 <Header title={this.props.title} />
-                    {this.props.children}
-                 <Footer />
-             </div>
+                <Header title={this.props.title}/>
+                <Navbar/>
+                {this.props.children}
+                <Footer/>
+            </div>
         )
     }
 }

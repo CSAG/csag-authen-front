@@ -47,7 +47,7 @@ var App = function (_Component) {
     (0, _createClass3.default)(App, [{
         key: 'render',
         value: function render() {
-            return _react2.default.createElement(_layouts.Main, { title: 'Welcome', __source: {
+            return _react2.default.createElement(_layouts.Main, { title: 'Login', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 7
                 }
@@ -55,11 +55,11 @@ var App = function (_Component) {
                     fileName: _jsxFileName,
                     lineNumber: 8
                 }
-            }, _react2.default.createElement('div', { className: 'col-sm-4 col-md-offset-4', __source: {
+            }, _react2.default.createElement('div', { className: 'col-sm-4 col-sm-offset-4', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 9
                 }
-            }, _react2.default.createElement('div', { className: 'panel panel-info', __source: {
+            }, _react2.default.createElement('div', { className: 'panel panel-base', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 10
                 }
@@ -67,11 +67,35 @@ var App = function (_Component) {
                     fileName: _jsxFileName,
                     lineNumber: 11
                 }
-            }, 'Register'), _react2.default.createElement('div', { className: 'panel-body', __source: {
+            }, 'Login'), _react2.default.createElement('div', { className: 'panel-body', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 14
                 }
-            })))));
+            }, _react2.default.createElement('input', { type: 'text', className: 'form-control mb-15', placeholder: 'Username or Email', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 15
+                }
+            }), _react2.default.createElement('input', { type: 'password', className: 'form-control  mb-15', placeholder: 'Password', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 16
+                }
+            }), _react2.default.createElement('input', { type: 'button', value: 'Login', className: 'btn btn-info mb-15 full-width', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 17
+                }
+            }), _react2.default.createElement('div', { style: { textAlign: "center", fontSize: "0.9em" }, __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 18
+                }
+            }, _react2.default.createElement('a', { href: '/register', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 19
+                }
+            }, 'Register'), ' | ', _react2.default.createElement('a', { href: '/forgotpass', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 19
+                }
+            }, 'Forgot Password')))))));
         }
     }]);
 

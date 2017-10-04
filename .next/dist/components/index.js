@@ -21,3 +21,12 @@ Object.defineProperty(exports, 'Footer', {
     return _Footer.Footer;
   }
 });
+
+var _Navbar = require('./App/Navbar');
+
+Object.defineProperty(exports, 'Navbar', {
+  enumerable: true,
+  get: function () {
+    return _Navbar.Navbar;
+  }
+});
